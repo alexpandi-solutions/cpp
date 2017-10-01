@@ -13,6 +13,7 @@ TEST(Add_TestGroup, Add_Test_1)
 
 TEST(Add_TestGroup, Add_Test_2)
 {
+    ASSERT_EQ(3, (add(2,2)));
 }
 
 int main(int argc, char **argv)
